@@ -265,8 +265,11 @@ def final_file_assembly(dir_path, out_path, file_name):
 
 UPLOAD_DIR = "uploads"
 RESULTS_DIR = "results"
+STATIC_DIR = "static"
+PICTURES_DIR = "pictures"
 
-
+os.makedirs(PICTURES_DIR, exist_ok=True)
+os.makedirs(STATIC_DIR, exist_ok=True)
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
