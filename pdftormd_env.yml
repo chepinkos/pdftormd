@@ -1,0 +1,40 @@
+name: pdftormd2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyterlab
+  - jupyterlab_server
+  - requests
+  - nest-asyncio
+  - python=3.10.15
+  - pip:
+    - matplotlib==3.9.2
+    - nltk==3.6.1
+    - numpy==1.26.3
+    - pandas==2.2.3
+    - plotly==5.4.0
+    - scipy
+    - seaborn==0.11.1
+    - sqlalchemy==1.4.15
+    - statsmodels==0.13.2
+    - fastapi==0.115.6
+    - jiwer==3.0.5
+    - optimum==1.23.3
+    - pdf2image==1.17.0
+    - pytesseract==0.3.13
+    - texify==0.2.1
+    - transformers==4.46.2
+    - ultralytics==8.3.31
+    - uvicorn
+    - onnx==1.17.0
+    - python-multipart==0.0.20
+prefix: /opt/conda
