@@ -50,8 +50,13 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip uninstall torch torchvision torchaudio
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-Также убедитесь, что установлен Pandoc и Poppler — инструменты для обработки PDF.
-Запуск инструмента:
+Также убедитесь, что установлен Poppler — инструменты для обработки PDF. 
+# Запуск
+В командной строке Anaconda porompt активировать окружение:
+```text
+conda activate pdftormd
+```
+Запустить программу: 
 ```text
 uvicorn pdf2rmd:app --reload
 ```
