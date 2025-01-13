@@ -50,9 +50,10 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip uninstall torch torchvision torchaudio
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-Также убедитесь, что установлен Poppler — инструменты для обработки PDF. 
+Установите tesseract OCR по этой ссылке https://github.com/UB-Mannheim/tesseract/wiki
+Также убедитесь, что установлен Poppler — инструмент для обработки PDF.  
 # Запуск
-В командной строке Anaconda porompt активировать окружение:
+В командной строке Anaconda prompt активировать окружение:
 ```text
 conda activate pdftormd
 ```
